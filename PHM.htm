@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calamity Progression Guide</title>
+     <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding-top: 176px;
+            background-color: #f8f9fb;
+            color: #1f0000e8;
+        }
+
+        .header-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            z-index: 999;
+        }
+
+        .header-image img {
+            max-height: 104px;
+            max-width: 90%;
+        }
+
+        nav.top-nav {
+            position: fixed;
+            top: 120px;
+            left: 0;
+            right: 0;
+            height: 56px;
+            background-color: #130101;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .nav-inner {
+            display: flex;
+            gap: 1rem;
+            padding: 0 16px;
+            align-items: center;
+        }
+
+        .nav-inner a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .nav-inner a:hover {
+            background-color: #aa3214;
+            border-radius: 4px;
+        }
+
+        .nav-inner a.active {
+            background-color: #aa3214;
+            border-radius: 4px;
+        }
+
+        .reminders {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #ffd5cd;
+            border-left: 4px solid #ff3c00;
+            color: #852904;
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .reminders h3 {
+            margin-top: 0;
+        }
+
+        .reminders ul {
+            padding-left: 20px;
+        }
+
+        .class-radio {
+            display: none;
+        }
+
+        .class-filter {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .class-btn {
+            padding: 8px 14px;
+            border: 1px solid #ddd;
+            background-color: #f5f5f5;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 13px;
+            color: #2b0202;
+        }
+
+        .class-btn:hover {
+            background-color: #e8e8e8;
+        }
+
+        .class-radio:checked + .class-btn {
+            background-color: #aa3214;
+            color: #fff;
+            border-color: #aa3214;
+        }
+
+        .boss-content {
+            display: none;
+        }
+
+        .class-radio:checked + .class-btn + .boss-content {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .boss-guide {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 18px;
+            margin: 15px auto;
+            max-width: 1100px;
+        }
+
+        .boss-guide h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.25rem;
+            color: #2b0202;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .boss-icon {
+            width: 36px;
+            height: 36px;
+        }
+
+        .section-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        .li-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+        }
+
+        .boss-section {
+            background-color: #f0f1f5;
+            padding: 10px;
+            margin-bottom: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .boss-section h3 {
+            margin: 0 0 8px 0;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .boss-section ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .boss-section li {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-image">
+        <img src="calamity.jpeg" alt="Calamity Logo">
+    </div>
+    
+    <nav class="top-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="PHM.htm" class="active">Pre-Hardmode</a>
+            <p>Hardmode</p4>
+            <p>Post-Moonlord</p>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <h1>Calamity Mod: Pre-Hardmode Progression Guide</h1>
+            <section>
+                <h2>Introduction</h2>
+                <p>The Calamity Mod introduces a plethora of new content to Terraria, including new biomes, enemies, bosses, and items. This guide will help you navigate through the pre-hardmode phase of the game, ensuring you are well-prepared for the challenges ahead.</p>
+            </section>
+
+            <section class="reminders">
+                <h3>Guide Reminders</h3>
+                <ul>
+                    <li>This guide gives only lists items that are enough for the boss, no overpreparation or underpreparation</li>
+                    <li>Stock up on healing potions and any class related potions</li>
+                    <li>The Boss Arenas is completely optional, you may do your own version</li>
+                    <li>Some boss are not</li>
+                    <li>The list for accessories may contain less than the previous, because it's simply an addition to your previous loadout/the item shouldn't be replaced</li>
+                    <li>Bosses that are mentioned in the same box means that they require just the same amount of preparation</li>
+                </ul>
+            </section>
+<!--BOSS 1-->
+<!--BOSS 1-->
+<!--BOSS 1-->
+            <section class="boss-guide">
+                <h2><img class="boss-icon" src="Boss Icons/36px-Desert_Scourge_map.jpeg" alt="Boss icon"><img class="boss-icon" src="Boss Icons/Map_Icon_King_Slime.jpeg" alt="Boss icon"><img class="boss-icon" src="Boss Icons/Map_Icon_Eye_of_Cthulhu_(first_form).jpeg" alt="Boss icon">Desert Scourge, King Slime, Eye of Cthulhu</h2>
+                <div class="class-filter">
+                    <input type="radio" id="boss1-melee" name="boss1-class" class="class-radio" checked>
+                    <label for="boss1-melee" class="class-btn">⚔ Melee</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Sahara_Slicers.jpeg" alt="">Sahara Slicers</li>
+                                <li><img class="li-icon" src="PHM Items/Swordfish.jpeg" alt="">Swordfish</li>
+                                <li><img class="li-icon" src="PHM Items/Burnt_Sienna.jpeg" alt="">Burnt Sienna</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Gold_armor.jpeg" alt="">Gold Armor</li>
+                                <li><img class="li-icon" src="PHM Items/Platinum_armor.jpeg" alt="">Platinum Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                                <li><img class="li-icon" src="PHM Items/Feral_Claws.jpeg" alt="">Feral Claws</li>
+                                <li><img class="li-icon" src="PHM Items/granite_core.jpeg" alt="">Unstable Granite Core</li>
+                                <li><img class="li-icon" src="PHM Items/Hermes_Boots.jpeg" alt="">Hermes Boots</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss1-ranger" name="boss1-class" class="class-radio">
+                    <label for="boss1-ranger" class="class-btn">🏹 Ranger</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Spark_Spreader.jpeg" alt="">Spark Spreader</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Desert_Prowler_armor.jpeg" alt="">Desert Prowler Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Hermes_Boots.jpeg" alt="">Hermes Boots</li>
+                                <li><img class="li-icon" src="PHM Items/Skyline_Wings.png" alt="">Skyline Wings</li>
+                                <li><img class="li-icon" src="PHM Items/Rover_Drive.jpeg" alt="">Rover Drive</li>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss1-mage" name="boss1-class" class="class-radio">
+                    <label for="boss1-mage" class="class-btn">✨ Mage</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Thunder_Zapper.jpeg" alt="">Thunder Zapper</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Gold_armor.jpeg" alt="">Gold Armor</li>
+                                <li><img class="li-icon" src="PHM Items/Platinum_armor.jpeg" alt="">Platinum Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                                <li><img class="li-icon" src="PHM Items/Band_of_Starpower.jpeg" alt="">Band of Starpower</li>
+                                <li><img class="li-icon" src="PHM Items/granite_core.jpeg" alt="">Unstable Granite Core</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss1-summoner" name="boss1-class" class="class-radio">
+                    <label for="boss1-summoner" class="class-btn">👿 Summoner</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Stormjaw_Staff.jpeg" alt="">Stormjaw Staff</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Fossil_armor.webp" alt="">Fossil Armor
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Pygmy_Necklace.webp" alt="">Pygmy Necklace</li>
+                                <li><img class="li-icon" src="PHM Items/Wulfrum_Battery.webp" alt="">Wulfrum Battery</li>
+                                <li><img class="li-icon" src="PHM Items/Rover_Drive.jpeg" alt="">Rover Drive</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="boss-section">
+                    <h3><img class="section-icon" src="PHM Items/Wood_Platform.jpeg" alt="Arena icon">Boss Arena</h3>
+                    <p><img class="li-icon" src="PHM Items/Wood_Platform.jpeg" alt="Wood platform"> Create a 60-block wide platform with wood. Add 2-3 smaller platforms above for mobility.</p>
+                </div>
+            </section>
+<!--BOSS 2-->
+<!--BOSS 2-->
+<!--BOSS 2-->
+            <section class="boss-guide">
+                <h2><img class="boss-icon" src="Boss Icons/Map_Icon_Eater_of_Worlds.jpeg" alt="Boss icon"><img class="boss-icon" src="Boss Icons/Map_Icon_Brain_of_Cthulhu.jpeg" alt="Boss icon">Eater of Worlds, Brain of Cthulhu</h2>
+                <div class="class-filter">
+                    <input type="radio" id="boss2-melee" name="boss2-class" class="class-radio" checked>
+                    <label for="boss2-melee" class="class-btn">⚔ Melee</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/51px-Blade_of_Grass.jpeg" alt="">Blade of Grass</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Victide_armor_Shellmet.jpeg" alt="">Victide Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Feral_Claws.jpeg" alt="">Feral Claws</li>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss2-ranger" name="boss2-class" class="class-radio">
+                    <label for="boss2-ranger" class="class-btn">🏹 Ranger</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/59px-Archerfish.webp" alt="">Archerfish</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Desert_Prowler_armor.jpeg" alt="">Desert Prowler</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss2-mage" name="boss2-class" class="class-radio">
+                    <label for="boss2-mage" class="class-btn">✨ Mage</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Eldritch_Tome.webp" alt="">Eldritch Tome</li>
+                                <li><img class="li-icon" src="PHM Items/Storm_Surge.webp" alt="">Storm Surge</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Victide_armor_Hermit_Helmet.webp" alt="">Victide Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                                <li><img class="li-icon" src="PHM Items/Lightning_Boots.webp" alt="">Lightning Boots</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss2-summoner" name="boss2-class" class="class-radio">
+                    <label for="boss2-summoner" class="class-btn">👿 Summoner</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Stormjaw_Staff.jpeg" alt="">Stormjaw Staff</li>
+                                <li><img class="li-icon" src="PHM Items/Cnidarian.webp" alt="">Cnidarian</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Victide_armor_Mask.webp" alt="">Victide Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Pygmy_Necklace.webp" alt="">Pygmy Necklace</li>
+                                <li><img class="li-icon" src="PHM Items/Wulfrum_Battery.webp" alt="">Wulfrum Battery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="boss-section">
+                    <h3><img class="section-icon" src="PHM Items/Wood_Platform.jpeg" alt="Arena icon">Boss Arena</h3>
+                    <p><img class="li-icon" src="PHM Items/Wood_Platform.jpeg" alt="Wood platform"> Build a 50-block wide main platform. Add side escape platforms spaced 15 blocks apart.</p>
+                </div>
+            </section>
+<!--BOSS 3-->
+<!--BOSS 3-->
+<!--BOSS 3-->
+            <section class="boss-guide">
+                <h2><img class="boss-icon" src="Boss Icons/Perforator_Hive_map.jpeg" alt="Boss icon"><img class="boss-icon" src="Boss Icons/36px-Hive_Mind_map.jpeg" alt="Boss icon">Perforator, Hive Mind</h2>
+                <div class="class-filter">
+                    <input type="radio" id="boss3-melee" name="boss3-class" class="class-radio" checked>
+                    <label for="boss3-melee" class="class-btn">⚔ Melee</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/53px-Volcano.webp" alt="">Volcano</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Molten_armor.webp" alt="">Molten Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Feral_Claws.jpeg" alt="">Feral Claws</li>
+                                <li><img class="li-icon" src="PHM Items/Luxor's_Gift.jpeg" alt="">Luxor's Gift</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss3-ranger" name="boss3-class" class="class-radio">
+                    <label for="boss3-ranger" class="class-btn">🏹 Ranger</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Firestorm_Cannon.webp" alt="">Firestorm Cannon</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Fossil_armor.webp" alt="">Fossil Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Lightning_Boots.webp" alt="">Lightning Boots</li>
+                                <li><img class="li-icon" src="PHM Items/Wulfrum_Battery.webp" alt="">Wulfrum Battery</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss3-mage" name="boss3-class" class="class-radio">
+                    <label for="boss3-mage" class="class-btn">✨ Mage</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Flare_Bolt.webp" alt="">Flare Bolt</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Molten_armor.webp" alt="">Molten Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Mana_Regeneration_Band.webp" alt="">Mana Regeneration Band</li>
+                                <li><img class="li-icon" src="PHM Items/Mana_Flower.webp" alt="">Mana Flower</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss3-summoner" name="boss3-class" class="class-radio">
+                    <label for="boss3-summoner" class="class-btn">👿 Summoner</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Imp_Staff.webp" alt="">Imp Staff</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Obsidian_armor.webp" alt="">Obsidian Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Pygmy_Necklace.webp" alt="">Pygym Necklace</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="boss-section">
+                    <h3><img class="section-icon" src="PHM Items/Wood_Platform.jpeg" alt="Arena icon">Boss Arena</h3>
+                    <p><img class="li-icon" src="PHM Items/Wood_Platform.jpeg" alt="Wood platform"> Construct a 55-block platform with 4 evenly-spaced vertical shafts for dodging.</p>
+                </div>
+            </section>
+<!--BOSS 4-->
+<!--BOSS 4-->
+<!--BOSS 4-->
+            <section class="boss-guide">
+                <h2><img class="boss-icon" src="Boss Icons/Slime_God_Core_map.jpeg" alt="Boss icon"><img class="boss-icon" src="Boss Icons/Map_Icon_Skeletron.jpeg" alt="Boss icon">Slime God, Skeletron</h2>
+                <div class="class-filter">
+                    <input type="radio" id="boss4-melee" name="boss4-class" class="class-radio" checked>
+                    <label for="boss4-melee" class="class-btn">⚔ Melee</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Melee Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Melee Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="">Melee Armor Set 1</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="icons/accessory.png" alt="">Melee Accessory 1</li>
+                                <li><img class="li-icon" src="icons/accessory.png" alt="">Melee Accessory 2</li>
+                                    <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Melee Accessory 1</li>
+                                    <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Melee Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss4-ranger" name="boss4-class" class="class-radio">
+                    <label for="boss4-ranger" class="class-btn">🏹 Ranger</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Ranger Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Ranger Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="">Ranger Armor Set 1</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="icons/accessory.png" alt="">Ranger Accessory 1</li>
+                                <li><img class="li-icon" src="icons/accessory.png" alt="">Ranger Accessory 2</li>
+                                    <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Ranger Accessory 1</li>
+                                    <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Ranger Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss4-mage" name="boss4-class" class="class-radio">
+                    <label for="boss4-mage" class="class-btn">✨ Mage</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Mage Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Mage Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="icons/armor.png" alt="">Mage Armor Set 1</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Mage Accessory 1</li>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Mage Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss4-summoner" name="boss4-class" class="class-radio">
+                    <label for="boss4-summoner" class="class-btn">👿 Summoner</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Summoner Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Summoner Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="icons/armor.png" alt="">Summoner Armor Set 1</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Summoner Accessory 1</li>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Summoner Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="boss-section">
+                    <h3><img class="section-icon" src="PHM Items/Wood_Platform.jpeg" alt="Arena icon">Boss Arena</h3>
+                    <p><img class="li-icon" src="PHM Items/Wood_Platform.jpeg" alt="Wood platform"> Create an L-shaped arena: 60-block main platform with a 40-block upper platform on one side.</p>
+                </div>
+            </section>
+<!--BOSS 5-->
+<!--BOSS 5-->
+<!--BOSS 5-->
+            <section class="boss-guide">
+                <h2><img class="boss-icon" src="Boss Icons/Map_Icon_Wall_of_Flesh.jpeg" alt="Boss icon">Wall of Flesh</h2>
+                <div class="class-filter">
+                    <input type="radio" id="boss5-melee" name="boss5-class" class="class-radio" checked>
+                    <label for="boss5-melee" class="class-btn">⚔ Melee</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Melee Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Melee Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="icons/armor.png" alt="">Melee Armor Set 1</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Melee Accessory 1</li>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Melee Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss5-ranger" name="boss5-class" class="class-radio">
+                    <label for="boss5-ranger" class="class-btn">🏹 Ranger</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Murasama.jpeg" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Ranger Weapon 1</li>
+                                <li><img class="li-icon" src="PHM Items/Murasama.jpeg" alt="">Ranger Weapon 2</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Statigel_armor_Headgear.webp" alt="">Statigel Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Ranger Accessory 1</li>
+                                <li><img class="li-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="">Ranger Accessory 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss5-mage" name="boss5-class" class="class-radio">
+                    <label for="boss5-mage" class="class-btn">✨ Mage</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Eldritch_Tome.webp" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Eldritch_Tome.webp" alt="">Eldritch Tome</li>
+                                <li><img class="li-icon" src="PHM Items/Sparkling_Empress.webp" alt="">Sparkling Empress
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Statigel_armor_Cap.webp" alt="">Statigel Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Band_of_Starpower.jpeg" alt="">Band of Starpower</li>
+                                <li><img class="li-icon" src="PHM Items/Mana_Polarizer.webp" alt="">Mana Polarizer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="boss5-summoner" name="boss5-class" class="class-radio">
+                    <label for="boss5-summoner" class="class-btn">👿 Summoner</label>
+                    <div class="boss-content">
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Slime_Puppet_Staff.webp" alt="Weapons icon">Weapons</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Slime_Puppet_Staff.webp" alt="">Slime Puppet Staff</li>
+                                <li><img class="li-icon" src="PHM Items/Imp_Staff.webp" alt="">Imp Staff</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/God_Slayer_Horned_Greathelm.jpeg" alt="Armor icon">Armor</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Statigel_armor_Hood.webp" alt="">Statigel Armor</li>
+                            </ul>
+                        </div>
+                        <div class="boss-section">
+                            <h3><img class="section-icon" src="PHM Items/Dimensional_Soul_Artifact.jpeg" alt="Accessory icon">Accessories</h3>
+                            <ul>
+                                <li><img class="li-icon" src="PHM Items/Pygmy_Necklace.webp" alt="">Pygmy Necklace</li>
+                                <li><img class="li-icon" src="PHM Items/Wulfrum_Battery.webp" alt="">Wulfrum Battery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="boss-section">
+                    <h3><img class="section-icon" src="PHM Items/Wood_Platform.jpeg" alt="Arena icon">Boss Arena</h3>
+                    <p><img class="li-icon" src="PHM Items/Wood_Platform.jpeg" alt="Wood platform">Build a platform in hell across the entire map(Asphalt block recommended)</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>
